@@ -1,0 +1,61 @@
+.container {
+    background: url("https://www.umw.edu/covidcourse/wp-content/uploads/sites/51/2020/05/COVID-19_header.jpg");
+    max-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+  }
+  .text{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    max-width: 600px;
+    
+    height: 60vh;
+  
+  }
+  .text>Button{
+    background-color: rgb(173,47,46);
+        color: white;
+        text-transform: inherit;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .text>Button:hover{
+        color:  rgb(173,47,46);
+        background-color: white;
+    }
+  h1{
+    margin: 0;
+    color:  rgb(173,47,46);
+    font-size:90px;
+  }
+  @media screen and (max-width: 400px)
+  {
+    .container{
+      background-size: 100%;
+    }
+    h1{
+
+      
+      font-size:30px;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    
+    .container{
+      background-size: 100%;
+    }
+    h1{
+
+      
+      font-size:50px;
+    }
+    
+    
+  }

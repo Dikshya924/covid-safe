@@ -1,0 +1,10 @@
+.topic{
+  float: left;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .topic{
+    float: none;
+  }
+}

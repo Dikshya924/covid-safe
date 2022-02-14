@@ -1,0 +1,23 @@
+
+.spread{
+    margin-top: 20px;
+   background: url("https://stories.uh.edu/covid-19/assets/ag2dSlL11z/covidbackground05-2560x1440.jpeg");
+   position: relative;
+}
+.topics{
+    text-align: center;
+   
+    
+}
+.Cards{
+    display: flex;
+    padding: 30px;
+
+}
+@media screen and (max-width: 800px){
+    .Cards{
+        flex-direction: column;
+    }
+
+
+}
